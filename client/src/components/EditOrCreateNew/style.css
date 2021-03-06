@@ -1,0 +1,91 @@
+.edit-form {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-control-edit {
+    margin: 5px;
+    width: 100%;
+}
+
+.form-control-edit label {
+    color: #3498db;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.isComplete-field {
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.isComplete-field div {
+    display: block;
+    height: 2rem;
+}
+
+#desc {
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+#isComplete {
+    height: 2rem;
+    margin-left: 1rem;
+    width: 2rem;
+}
+
+.form-control-edit input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.form-control-edit input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.edit-create-btn {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #3498db;
+}
+
+.delete-btn {
+    background-color: lightcoral;
+}
+
+.edit-form-btns-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .edit-form {
+        width: 90%;
+    }
+}
